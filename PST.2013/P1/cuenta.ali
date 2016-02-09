@@ -1,0 +1,178 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnvnnnnnnnvvnvnnnvvnnnnnnnvnnnnnnvnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U cuenta%b		cuenta.adb		0c4b1c0b NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W ada.strings.maps%s	a-strmap.adb		a-strmap.ali
+W ada.strings.maps.constants%s  a-stmaco.ads	a-stmaco.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W list%s		list.adb		list.ali
+W paquetes%s		paquetes.adb		paquetes.ali
+W system%s		system.ads		system.ali
+W system.concat_6%s	s-conca6.adb		s-conca6.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-comlin.ads		20100623092347 e0accaa5
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strfix.ads		20101008130255 d07c346e
+D a-strmap.ads		20090409150019 9cb836fb
+D a-stmaco.ads		20090409150019 cef4434b
+D a-strunb.ads		20101220072657 e684739b
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D cuenta.adb		20131010152023 2ab34c35
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D list.ads		20131010152024 1ef3fef2
+D paquetes.ads		20131010152024 9f2a6907
+D system.ads		20120503154647 23e1f70b
+D s-conca6.ads		20090420091404 c7caf514
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 18|7r6 8r6 9r6 10r6 11r6 14r6 15r6 21r29 22r30 23r29 24r30
+. 26r18 47r14 47r55 54r13 56r29 57r73 61r90 92r54 118r13 120r29 120r93 121r73
+. 126r90 162r54 178r32 178r96 179r73 184r90 220r54
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 18|9w10 47r18 47r59 54r17 56r33 57r77 118r17 120r33
+. 120r97 121r77 178r36 178r100 179r77
+41V13*Argument_Count{natural} 18|47s31 47s72 54s30 118s30
+48V13*Argument{string} 18|56s46 57s90 120s46 120s110 121s90 178s49 178s113
+. 179s90
+X 5 a-except.ads
+55K13*Exceptions 370e19 18|10w10
+X 8 a-ioexce.ads
+18K13*IO_Exceptions 30e22 18|11w10 92r58 162r58 220r58
+26X4*End_Error 18|92r72 162r72 220r72
+X 10 a-string.ads
+16K13*Strings 35e16 18|8r10 14r10 15r10 21r33 23r33 24r34 26r22
+X 11 a-strfix.ads
+18K21*Fixed 251e22 18|14w18 23r41
+122V13*Translate{string} 18|127s93 185s93
+X 12 a-strmap.ads
+38K21*Maps 412e21 18|15r18 24r42
+108A9*Character_Mapping(character)
+X 13 a-stmaco.ads
+38K26*Constants 916e31 18|15w23 24r47
+55a4*Lower_Case_Map{12|108A9} 18|127r138 185r138
+X 14 a-strunb.ads
+77K21*Unbounded 490e26 18|8w18 21r41 26r30
+80R9*Unbounded_String 474e14 18|26r40 35r28 36r22
+85V13*Length{natural} 18|62s72 81s72 128s72 149s72 186s72 207s72
+95V13*To_Unbounded_String{80R9} 18|61s70 71s91 126s70 127s69 138s91 184s70
+. 185s69 196s91
+101V13*To_String{string} 18|127s107 185s107
+167V13*"="{boolean}<6|64p24> 18|71s84 138s84 196s84
+231V13*Index{natural} 18|78s79 146s79 204s79
+X 16 a-textio.ads
+49K13*Text_IO 472e16 18|7w10 22r34 61r94 126r94 184r94
+52P9*File_Type(370R9) 18|34r30
+53n23*In_File{53E9} 18|57r64 121r64 179r64
+93U14*Open 18|57s38 121s38 179s38
+99U14*Close 18|97s38 167s38 225s38
+167U14*New_Line 18|100s38 170s38 228s38
+254V13*Get_Line{string} 18|61s102 126s102 184s102
+264U14*Put_Line 18|98s38 107s46 168s38 171s38 172s38 226s38 229s38 230s38
+. 239s46 246s30 248s30
+X 18 cuenta.adb
+17U11*Cuenta 17b11 251l5 251t11
+21K17 ASU=21:41 35r24 36r18 61r66 62r68 71r87 78r75 81r68 126r66 127r65 127r103
+. 128r68 138r87 146r75 149r68 184r66 185r65 185r103 186r68 196r87 204r75
+. 207r68
+22K17 T_IO=22:34 34r25 57r33 57r59 97r33 98r33 100r33 107r41 121r33 121r59
+. 167r33 168r33 170r33 171r33 172r33 179r33 179r59 225r33 226r33 228r33 229r33
+. 230r33 239r41 246r25 248r25
+23K17 ASF=23:41 127r89 185r89
+24K17 ASMC=24:47 127r133 185r133
+27X9 Error_Num_Argumentos 48r23 245r22
+28X9 Error_Vacio 67r71 85r62 134r71 154r62 192r71 212r62
+29X9 Error_Command_Line 102r39 106r38 234r39 238r38
+33b9 Terminar{boolean} 58m33 59r43 93m65 122m33 124r43 163m65 180m33 182r43
+. 221m65
+34p9 Fichero_Origen{16|52P9} 57m43 61r111 97m44 121m43 126r111 167m44 179m43
+. 184r111 225m44
+35r9 Frase_Inicial{14|80R9} 61m49 62r79 70m93 78r85 81r79 126m49 127m49 127r117
+. 128r79 137m93 146r85 149r79 150r95 159r87 184m49 185m49 185r117 186r79
+. 195m93 204r85 207r79 208r95 217r87
+36r9 Palabra{14|80R9} 70m107 71r76 137m107 138r76 139r103 195m107 196r76
+. 197r103
+37i9 AlmacenPalabra{integer} 72m109 82m101 86m93 87m65 87r82 89m93 98r105
+. 140m109 151m101 155m93 156m65 156r82 158m93 168r105 198m109 209m101 213m93
+. 214m65 214r82 216m93 226r105
+38i9 AlmacenEspacio{integer} 73m109 75m109 141m109 143m109 199m109 201m109
+39i9 AlmacenLinea{integer} 64m75 98r61 130m75 168r61 188m75 226r61
+40i9 Contador{integer}
+41i9 Numero_Caracteres{integer} 63m49 63r69 99r71 129m49 129r69 169r71 187m49
+. 187r69 227r71
+42i9 Longitud_Cadena{integer} 62m49 63r89 66r61 128m49 129r89 133r61 186m49
+. 187r89 191r61
+43p9 P_Lista{21|9P14} 123m55 139m111 150m109 159m101 173m55 174m53 181m55
+. 197m111 208m109 217m101 231m55 232m53
+88r62 Except{5|68R9}
+157r62 Except{5|68R9}
+215r62 Except{5|68R9}
+247r22 Except{5|68R9}
+X 21 list.ads
+5K9*List 18|13w6 43r18 123r33 139r81 150r73 159r65 173r33 174r33 181r33 197r81
+. 208r73 217r65 231r33 232r33 21|21e9
+8R14*Cell 15e19
+9P14*Cell_A(8R14) 18|43r23
+17U19*InicializarLista 18|123s38 181s38
+18U19*InsertarPalabras 18|139s86 150s78 159s70 197s86 208s78 217s70
+19U19*ImprimirPalabras 18|173s38 231s38
+20U19*LiberarMemoria 18|174s38 232s38
+X 22 paquetes.ads
+5K9*Paquetes 18|12w6 56r60 63r107 64r49 70r73 70r116 72r81 73r81 75r81 78r100
+. 82r73 86r65 89r65 120r60 120r124 129r107 130r49 137r73 137r116 140r81 141r81
+. 143r81 146r100 151r73 155r65 158r65 178r63 178r127 187r107 188r49 195r73
+. 195r116 198r81 199r81 201r81 204r100 209r73 213r65 216r65 22|24e13
+7a9*Caracter_Espacio{string} 18|70r125 78r109 137r125 146r109 195r125 204r109
+8i9*Caracter_Linea{integer} 18|63r116 129r116 187r116
+9a9*Argumento_Fichero{string} 18|56r69 120r69 178r72
+10a9*Argumento_Lista{string} 18|120r133 178r136
+14U19*Next_Token 18|70s82 137s82 195s82
+18U19*Almacenar_Palabras 18|72s90 82s82 86s74 89s74 140s90 151s82 155s74
+. 158s74 198s90 209s82 213s74 216s74
+20U19*Almacenar_Espacios 18|73s90 75s90 141s90 143s90 199s90 201s90
+22U19*Almacenar_Lineas 18|64s58 130s58 188s58
+

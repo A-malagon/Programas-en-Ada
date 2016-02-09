@@ -1,0 +1,77 @@
+V "GNAT Lib v4.6"
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U paquetes%b		paquetes.adb		cc163819 NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U paquetes%s		paquetes.ads		79ae1a9c EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101220072657 e684739b
+D a-tags.ads		20101021101406 c7695348
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D paquetes.ads		20131010152024 9f2a6907
+D paquetes.adb		20131010152024 533c511e
+D system.ads		20120503154647 23e1f70b
+D s-exctab.ads		20090417131547 66e51330
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+X 1 ada.ads
+16K9*Ada 19e8 13|3r6 12r29
+X 7 a-string.ads
+16K13*Strings 35e16 13|3r10 12r33
+X 9 a-strunb.ads
+77K21*Unbounded 490e26 13|3w18 12r41
+80R9*Unbounded_String 474e14 13|14r57 15r66 14|9r57 10r66
+85V13*Length{natural} 14|16s62
+231V13*Index{natural} 14|14s33
+397V13*Head{80R9} 14|15s31
+407V13*Tail{80R9} 14|16s37
+X 13 paquetes.ads
+5K9*Paquetes 24l5 24e13 14|7b14 37l5 37t13
+7a9*Caracter_Espacio{string}
+8i9*Caracter_Linea{integer}
+9a9*Argumento_Fichero{string}
+10a9*Argumento_Lista{string}
+12K17*ASU=12:41 14r53 15r62 14|9r53 10r62 14r29 15r27 16r33 16r58
+14U19*Next_Token 14=31 15<49 16>49 14|9b19 17t12
+14r31 Frase_Inicial{9|80R9} 14|9b31 14r39 15r37 16m17 16r43 16r69
+15r49 Palabra{9|80R9} 14|10b49 15m17
+16s49 Espacio{string} 14|11b49 14r54
+18U19*Almacenar_Palabras 18=38 14|19b19 23t12
+18i38 AlmacenPalabra{integer} 14|19b38 22m17 22r34
+20U19*Almacenar_Espacios 20=38 14|25b19 29t12
+20i38 AlmacenEspacio{integer} 14|25b38 28m17 28r34
+22U19*Almacenar_Lineas 22=36 14|31b19 35t12
+22i36 AlmacenLinea{integer} 14|31b36 34m17 34r32
+X 14 paquetes.adb
+12i17 Posicion{integer} 14m17 15r52 16r85
+

@@ -1,0 +1,107 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvvnvnnnvvnnnnnnnvnnnnnnvnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U trocea%b		trocea.adb		c27f2647 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W paquetes%s		paquetes.adb		paquetes.ali
+W system%s		system.ads		system.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_6%s	s-conca6.adb		s-conca6.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-comlin.ads		20100623092347 e0accaa5
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101220072657 e684739b
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D paquetes.ads		20131010152024 9f2a6907
+D system.ads		20120503154647 23e1f70b
+D s-conca3.ads		20090420091404 762a026a
+D s-conca6.ads		20090420091404 c7caf514
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D trocea.adb		20131010152024 6f611963
+X 1 ada.ads
+16K9*Ada 19e8 39|7r6 8r6 9r6 10r6 19r29 20r30 22r18 35r14 44r50
+X 4 a-comlin.ads
+38K13*Command_Line 139e21 39|9w10 35r18
+41V13*Argument_Count{natural} 39|35s31
+X 5 a-except.ads
+55K13*Exceptions 370e19 39|10w10
+X 10 a-string.ads
+16K13*Strings 35e16 39|8r10 19r33 22r22
+X 12 a-strunb.ads
+77K21*Unbounded 490e26 39|8w18 19r41 22r30
+80R9*Unbounded_String 474e14 39|22r40 27r28 28r22
+85V13*Length{natural} 39|62s16
+95V13*To_Unbounded_String{80R9} 39|44s30 49s35
+101V13*To_String{string} 39|52s49 64s42 77s50
+167V13*"="{boolean}<6|64p24> 39|49s28
+231V13*Index{natural} 39|59s23
+X 14 a-textio.ads
+49K13*Text_IO 472e16 39|7w10 20r34 44r54
+167U14*New_Line 39|69s14 80s30
+243U14*Put 39|43s14 50s30 63s22 76s30
+257V13*Get_Line{string} 39|44s62
+264U14*Put_Line 39|52s30 64s22 68s14 74s30 77s30 79s30
+X 18 paquetes.ads
+5K9*Paquetes 24e13 39|11w6 47r17 53r25 54r25 56r25 65r17 78r25
+14U19*Next_Token 39|47s26
+18U19*Almacenar_Palabras 39|53s34 65s26 78s34
+20U19*Almacenar_Espacios 39|54s34 56s34
+X 39 trocea.adb
+13U11*Trocea 13b11 82l5 82t11
+17a9 Caracter_Espacio{string} 47r60 59r44
+19K17 ASU=19:41 27r24 28r18 44r26 49r31 52r45 59r19 62r12 64r38 77r46
+20K17 T_IO=20:34 43r9 50r25 52r25 63r17 64r17 68r9 69r9 74r25 76r25 77r25
+. 79r25 80r25
+23X9 Usage_Error 36r23 73r22
+27r9 Frase_Inicial{12|80R9} 44m9 47m37 59r29 62r23 64r52 77r60
+28r9 Palabra{12|80R9} 47m51 49r20 52r59
+29i9 AlmacenPalabra{integer} 53m53 65m45 68r48 78m53 79r64
+30i9 AlmacenEspacio{integer} 54m53 56m53 68r99 79r114
+31i9 Contador{integer} 50r60 51m25 51r36 63r52
+75r22 Except{5|68R9}
+

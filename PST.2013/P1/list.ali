@@ -1,0 +1,106 @@
+V "GNAT Lib v4.6"
+P SS ZX
+R nnnvnnnnnnvnnnnnnnnnnnnnnvvnnnnvnnnnnnnnnnnnvnnnnnnnnnnvnnvnnnnvnnnnnnnnnnnnnnnn
+
+U list%b		list.adb		a4374add NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U list%s		list.ads		f8778d69 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101220072657 e684739b
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D list.ads		20131010152024 1ef3fef2
+D list.adb		20131010152023 73f31f2a
+D system.ads		20120503154647 23e1f70b
+D s-conca2.ads		20090420091404 fbd0f2fc
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 18|3r6 6r29 19|3r6 4r6 10r42 45r25 46r25
+X 9 a-string.ads
+16K13*Strings 35e16 18|3r10 6r33
+X 11 a-strunb.ads
+77K21*Unbounded 490e26 18|3w18 6r41
+80R9*Unbounded_String 474e14 18|12r29 18r49 19|9r22 17r49
+101V13*To_String{string} 19|45s45
+167V13*"="{boolean}<5|64p24> 19|24s57
+X 13 a-textio.ads
+49K13*Text_IO 472e16 19|4w10 45r29 46r29
+243U14*Put 19|45s37
+264U14*Put_Line 19|46s37
+X 15 a-uncdea.ads
+20u15*Unchecked_Deallocation 19|3w10 10r46
+X 18 list.ads
+5K9*List 21l5 21e9 19|7b14 61l5 61t9
+6K17*ASU=6:41 12r25 18r45 19|9r18 17r45 45r41
+8R14*Cell 9r31 10c14 15e19 19|10r69 32r37
+9P14*Cell_A(8R14) 14r29 17r49 18r82 19r52 20r50 19|10r74 12r49 17r82 18r24
+. 19r35 40r52 41r24 51r50 52r24
+12r17*Nombre{11|80R9} 19|24r50 33m35 45r61
+13i17*Contador{natural} 19|26m50 26r79 34m35 46r66
+14p17*Siguiente{9P14} 19|28r65 35m35 47r39 56r51
+17U19*InicializarLista 17<36 19|12b19 15l13 15t29
+17p36 P_Lista{9P14} 19|12b36 14m17
+18U19*InsertarPalabras 18>36 18=66 19|17b19 38l13 38t29
+18r36 Palabra{11|80R9} 19|17b36 24r59 33r45
+18p66 P_Lista{9P14} 19|17b66 22r37 35r48 36m25
+19U19*ImprimirPalabras 19=36 19|40b19 49t12
+19p36 P_Lista{9P14} 19|40b36 43r25
+20U19*LiberarMemoria 20=34 19|51b19 59t12
+20p34 P_Lista{9P14} 19|51b34 54r31 55r41 56m33 56r43
+X 19 list.adb
+10U19 MemoriaLiberada[15|20] 57s33
+18p17 P_Aux{18|9P14} 32m25 33r25 34r25 35r25 36r35
+19p17 P_Buscar_Palabra{18|9P14} 22m17 23r53 24r29 26r33 26r62 28m25 28r44
+20b17 Palabra_Encontrada{boolean} 23r28 25m33 31r21
+41p17 P_Aux{18|9P14} 43m17 44r24 45r55 46r60 47m25 47r33
+52p17 P_Aux{18|9P14} 55m33 57m49
+
